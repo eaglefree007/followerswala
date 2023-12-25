@@ -12,7 +12,7 @@ function App() {
         <img src={img1} alt="" classname=" mx-auto"/>
       </div>
       <span className="flex justify-center text-2xl font bold">Free Follower's Offer ...</span>
-      <div className="">
+      <div className="w-2/3 md:2/4">
         <img src={img2} alt="" className="w-100 mx-auto" />
       </div>
       <div className="">
