@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import img1 from "./assets/img1.png"
-import img2 from "./assets/img2.png"
+import img2 from "./assets/img2.webp"
 
 function App() {
   const [count, setCount] = useState(0)
