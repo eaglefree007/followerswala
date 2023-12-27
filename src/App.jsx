@@ -19,17 +19,17 @@ function App()
       </div>
       <div className="my-1">
         <Username/>
-          <p className="flex justify-center text-xl font-bold ">How to avail this offer 🤔</p>
+          <p className="flex justify-center text-xl font-bold ">🫡How to avail this offer🤔</p>
           <br />
-        <ul className=" text-md flex flex-col items-center">
-          <li className="">Enter your <strong>Username</strong> and Hit link button.</li>
-          <li className="">You will be redirected to merchant page.</li>
-          <li className="">Register and done.</li>
+        <ul className=" text-md flex flex-col ">
+          <li className="">🥇Enter Your IG Username and click on submit button</li>
+          <li className="">🥈You will be redirected to merchant Web</li>
+          <li className="">🥉ReGister & done</li>
         </ul>
         <div className="flex flex-col items-center">
-          <span className="block text-xl">✌️😍✌️Congratulation✌️😍✌️</span>
-          {/* <span className="block">😍</span> */}
-          <span className="">You will receive your followers</span>
+          <span className="block text-xl">🥳❤️‍🔥ConGratulation✌️🎉</span>
+          {/* <span className="block">😍😍😍</span> */}
+          <span className="">You will receive Your followers</span>
         </div>
       </div>
     </section>

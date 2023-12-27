@@ -49,7 +49,7 @@ const Username = () => {
         onChange={(e) => setUsername(e.target.value)} required={true}
       />
       {/* <a > */}
-        <a onClick={e => handleClick(e)} className='px-4 py-2 bg-pink-300 hover:bg-pink-400 rounded-lg mt-1 cursor-pointer'> <strong>Follower's <b>'+++'</b></strong></a>
+        <a onClick={e => handleClick(e)} className='px-4 py-2 bg-pink-300 hover:bg-pink-400 rounded-lg mt-1 cursor-pointer'>SubmiT</a>
       {/* </a> */}
     </div>
   );
