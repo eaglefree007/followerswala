@@ -7,7 +7,6 @@ import img2 from "./assets/img2.png"
 function App()
 {
   const link = "https://www.cargoconsoltd.com/#/pages/login/login?id=JupJpJ"
-  {/* <Username /> */}
   return (
     <>
       <section className="container">
