@@ -23,9 +23,7 @@ const Username = () => {
         username: username,
       });
       if(response.data.status == 2) {
-      setTimeout(() => {
           window.location.href = `${link}`; // Replace with your desired URL
-        }, 3000)
         // console.log(response);
       }
     } catch (error) {
