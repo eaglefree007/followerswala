@@ -18,7 +18,7 @@ const Username = () => {
       if (!name || !username) {datacheck = false}
       // Make a POST request to your Node.js backend API
       if(datacheck == false) return;
-      const response = await axios.post(`https://fsapi-production.up.railway.app/api/user`, {
+      const response = await axios.post(`https://fsapi-production.up.railway.app/user`, {
         name: name,
         username: username,
       });
