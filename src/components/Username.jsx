@@ -22,11 +22,12 @@ const Username = () => {
         name: name,
         username: username,
       });
-      if(response.data.status !== 2) return;
+      if(response.data.status == 2) {
       setTimeout(() => {
           window.location.href = `${link}`; // Replace with your desired URL
-        }, 1000)
-      // console.log(response);
+        }, 3000)
+        // console.log(response);
+      }
     } catch (error) {
       // Handle errors
       console.error('Error sending username:', error);
