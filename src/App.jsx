@@ -21,7 +21,7 @@ function App()
         <Username/>
           <p className="flex justify-center text-xl font-bold ">🫡How to avail this offer🤔</p>
           <br />
-        <ul className=" text-md flex flex-col ">
+        <ul className=" text-md flex flex-col text-center">
           <li className="">🥇Enter Your IG Username and click on submit button</li>
           <li className="">🥈You will be redirected to merchant Web</li>
           <li className="">🥉ReGister & done</li>
