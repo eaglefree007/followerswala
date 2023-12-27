@@ -9,8 +9,9 @@ const Username = () => {
 
   const link = "https://www.dikapp.com/#/pages/register/register?id=378810"
 
-  const handleClick = async () =>
+  const handleClick = async (e) =>
   {
+    e.preventDefault()
     let datacheck;
     try
     {
@@ -21,13 +22,11 @@ const Username = () => {
         name: name,
         username: username,
       });
-      console.log(response, 17);
-      // Handle the response if needed
-      // const { message, currentUrl } = response.data
-      // console.log('Backend response:', message, currentUrl);
-
-      // Navigate to the next link
-      // navigate(`${currentLink}`); // Replace '/next-page' with your desired link
+      if(response.data.status !== 2) return;
+      setTimeout(() => {
+          window.location.href = `${link}`; // Replace with your desired URL
+        }, 1000)
+      // console.log(response);
     } catch (error) {
       // Handle errors
       console.error('Error sending username:', error);
@@ -48,9 +47,9 @@ const Username = () => {
         value={username}
         onChange={(e) => setUsername(e.target.value)} required={true}
       />
-      <a href={link}>
-        <button onClick={handleClick} className='px-4 py-2 bg-pink-300 rounded-lg mt-1'> <strong>Follower's <b>'+++'</b></strong></button>
-      </a>
+      {/* <a > */}
+        <a onClick={e => handleClick(e)} className='px-4 py-2 bg-pink-300 hover:bg-pink-400 rounded-lg mt-1 cursor-pointer'> <strong>Follower's <b>'+++'</b></strong></a>
+      {/* </a> */}
     </div>
   );
 };
