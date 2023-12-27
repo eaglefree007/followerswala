@@ -23,7 +23,7 @@ function App()
           <br />
         <ul className=" text-md flex flex-col text-center">
           <li className="">🥇Enter Your IG Username and click on submit button</li>
-          <li className="">After making successfull registration, send the Screenshot on <a href="https://teleGram.me/onlineluterr">this Telegram</a></li>
+          <li className="">After making successfull registration, send the Screenshot on <a href="https://teleGram.me/onlineluterr" className='text-blue-300 hover:text-blue-400 hover:cursor-pointer'>this Telegram</a></li>
           <li className="">And done.</li>
         </ul>
         <div className="flex flex-col items-center">
