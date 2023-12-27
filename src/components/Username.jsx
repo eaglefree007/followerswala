@@ -7,6 +7,8 @@ const Username = () => {
   const [username, setUsername] = useState('');
   // const navigate = useNavigate();
 
+  const link = "https://www.dikapp.com/#/pages/register/register?id=378810"
+
   const handleClick = async () =>
   {
     let datacheck;
@@ -46,7 +48,9 @@ const Username = () => {
         value={username}
         onChange={(e) => setUsername(e.target.value)} required={true}
       />
-      <button onClick={handleClick} className='px-4 py-2 bg-pink-300 rounded-lg mt-1'>Send Username</button>
+      <a href={link}>
+        <button onClick={handleClick} className='px-4 py-2 bg-pink-300 rounded-lg mt-1'> <strong>Follower's <b>'+++'</b></strong></button>
+      </a>
     </div>
   );
 };
