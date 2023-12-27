@@ -44,7 +44,7 @@ const Username = () => {
       <input
         type="text"
         className='w-[80%] mt-1 mx-auto flex p-2 rounded-md custom-placeholder placeholder:font-bold  border-black border-2'
-        placeholder="Enter username"
+        placeholder="IG UsernamE"
         value={username}
         onChange={(e) => setUsername(e.target.value)} required={true}
       />
