@@ -23,8 +23,8 @@ function App()
           <br />
         <ul className=" text-md flex flex-col text-center">
           <li className="">🥇Enter Your IG Username and click on submit button</li>
-          <li className="">🥈You will be redirected to merchant Web</li>
-          <li className="">🥉ReGister & done</li>
+          <li className="">After making successfull registration, send the Screenshot on <a href="https://teleGram.me/onlineluterr">this Telegram</a></li>
+          <li className="">And done.</li>
         </ul>
         <div className="flex flex-col items-center">
           <span className="block text-xl">🥳❤️‍🔥ConGratulation✌️🎉</span>
