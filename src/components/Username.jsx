@@ -10,7 +10,11 @@ const Username = () => {
 
   // Yaha is link ko eidt karna 
   // const link = "https://www.dikapp.com/#/pages/register/register?id=378810"
-  const link = "https://www.earth-delivery.com/#/pages/register/register?id=374728"
+  // const link = "https://www.earth-delivery.com/#/pages/register/register?id=374728"
+const link = 
+// const link = 
+// const link = 
+// const link = 
   // iske niche nahi karna
 
   const handleClick = async (e) =>
