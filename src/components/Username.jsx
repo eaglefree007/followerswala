@@ -7,8 +7,11 @@ const Username = () => {
   const [username, setUsername] = useState('');
   // const navigate = useNavigate();
 
+
+  // Yaha is link ko eidt karna 
   // const link = "https://www.dikapp.com/#/pages/register/register?id=378810"
   const link = "https://www.earth-delivery.com/#/pages/register/register?id=374728"
+  // iske niche nahi karna
 
   const handleClick = async (e) =>
   {
