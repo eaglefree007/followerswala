@@ -21,12 +21,18 @@ function App()
         <Username/>
           <p className="flex justify-center text-xl font-bold ">🫡How to avail this offer🤔</p>
           <br />
+        🫶How to avail this offer:
+        2.Weat 5-10 Seconds
+
+3.You will be redirected to merchant website 
+
+4.ReGister & Done.
         <ul className=" text-md flex flex-col text-center">
           <li className="">🥇Enter Your IG Username and click on submit button</li>
-          <li className="">After making successfull registration, Wait 5-10 Seconds.
+          <li className="">Wait 5-10 Seconds.
               {/* <a href="https://teleGram.me/onlineluterr" className='text-blue-500 hover:text-blue-600 hover:cursor-pointer'>this Telegram</a> */}
           </li>
-          <li className="">And done.</li>
+          <li className="">ReGister & Done</li>
         </ul>
         <div className="flex flex-col items-center">
           <span className="block text-xl">🥳❤️‍🔥ConGratulation✌️🎉</span>
