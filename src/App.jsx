@@ -19,14 +19,8 @@ function App()
       </div>
       <div className="my-1">
         <Username/>
-          <p className="flex justify-center text-xl font-bold ">🫡How to avail this offer🤔</p>
-          <br />
-        🫶How to avail this offer:
-        2.Weat 5-10 Seconds
-
-3.You will be redirected to merchant website 
-
-4.ReGister & Done.
+          <p className="flex justify-center text-xl font-bold ">🫶How to avail this offer:</p>
+          <br />        
         <ul className=" text-md flex flex-col text-center">
           <li className="">🥇Enter Your IG Username and click on submit button</li>
           <li className="">Wait 5-10 Seconds.
