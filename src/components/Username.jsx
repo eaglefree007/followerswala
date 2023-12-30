@@ -11,7 +11,7 @@ const Username = () => {
   // Yaha is link ko eidt karna 
   // const link = "https://www.dikapp.com/#/pages/register/register?id=378810"
   // const link = "https://www.earth-delivery.com/#/pages/register/register?id=374728"
-const link = "https://www.ltimind-tree.com/#/pages/register/register?id=Juppba"
+const link = "https://www.herrenknecht-on.com/#/pages/login/register?id=7170"
 // const link = 
 // const link = 
 // const link = 
